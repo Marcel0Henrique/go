@@ -22,4 +22,5 @@ func main() {
 	e2 := estudante{pessoa{"Marcos", 26}, "Português"}
 
 	fmt.Println(p1, e1, e2)
+	fmt.Println(e1.nome, e2.pessoa.nome)
 }
