@@ -26,5 +26,5 @@ func main() {
 
 	fmt.Println(ponteiro, ponteiro2, variavel3)
 	fmt.Println("Endereço de memoria: ", ponteiro, " | Valor da variavel na memoria: ", *ponteiro)
-	// Colocando "*" na frente do ponteiro mostra o seu valor
+	// Colocando "*" na acessa o valor do ponteiro
 }
