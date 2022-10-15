@@ -1,3 +1,3 @@
-module funcoes_com_retorno_anonimo
+module funcoes_com_retorno_nomeado
 
 go 1.19
