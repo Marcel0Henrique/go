@@ -1,0 +1,10 @@
+{
+    "nome":"Marcelo",
+    "email":"teste@gmail.com",
+    "cursos":[
+        {
+            "nome":"Administração",
+            "conclusao": 2022
+        }
+    ]
+}
