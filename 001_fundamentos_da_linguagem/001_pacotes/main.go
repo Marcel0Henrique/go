@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"modulo/auxiliar"
+	"pacotes/auxiliar"
 )
 
 func main() {
 	fmt.Println("Escrevendo do arquivo main")
+	auxiliar.BemVindo()
 	auxiliar.Escrever()
 	auxiliar.Ajuda()
 }
