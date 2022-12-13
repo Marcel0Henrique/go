@@ -17,5 +17,5 @@ func main() {
 	r := router.InitRouter()
 
 	//* Iniciando servidor
-	log.Fatalln(http.ListenAndServe(":"+strconv.Itoa(port), r))
+	go log.Fatalln(http.ListenAndServe(":"+strconv.Itoa(port), r))
 }
