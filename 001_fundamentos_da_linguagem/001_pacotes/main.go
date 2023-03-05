@@ -10,4 +10,5 @@ func main() {
 	auxiliar.BemVindo()
 	auxiliar.Escrever()
 	auxiliar.Ajuda()
+	fmt.Println("*** Fim da Execução ***")
 }
